@@ -1,4 +1,5 @@
-
+$primary: #343a40;
+$secondary: #4a5050;
 .cv-container {
   height: 100%;
   
@@ -9,23 +10,23 @@ ul{
 }
 
 /* Nav bar ==========================*/
-.nav{
-  margin-top: 15px;
-  margin-right: 30px;   
-}
-.nav a{  
-  font-weight: 400;
-  color: #66a5ad;
-}
-.nav a:hover{
-  background-color: rgba(0, 0, 0, 0.1);
-}
-.active{
-  background: rgba(0, 0, 0, 0.1);
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  font-weight: bold;
-  color: black;
-}
+// .nav{
+//   margin-top: 15px;
+//   margin-right: 30px;   
+// }
+// .nav a{  
+//   font-weight: 400;
+//   color: #66a5ad;
+// }
+// .nav a:hover{
+//   background-color: rgba(0, 0, 0, 0.1);
+// }
+// .active{
+//   background: rgba(0, 0, 0, 0.1);
+//   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+//   font-weight: bold;
+//   color: black;
+// }
 
 
 
@@ -52,17 +53,21 @@ ul{
 /* Aside ==============================*/
 
 aside {
-  background-color: #66a5ad;
+  background-color: $secondary;
   float: right;
   width: 270px;
   max-width: 400px;
   color: white;
   box-shadow: 2px 2px 10px 1px #c1c1c1;
+
+  p{
+    margin-bottom: 0.5rem;;
+  }
 }
 
 aside header {
   height: 12px;
-  background-color: #07575b;
+  background-color: $primary;
 }
 
 aside section {
@@ -230,6 +235,7 @@ font-style: italic; }
   float: left;
   margin-top: 10px;
   width: 60vw;
+  margin-bottom: 10rem;
 }
 
 .ref main{
@@ -278,6 +284,7 @@ font-style: italic; }
   article {
       margin-top: 6%;
   }
+
 
 
 
