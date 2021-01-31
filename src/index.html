@@ -1,13 +1,130 @@
 <!doctype html>
-<html lang="en">
+<html>
+<!-- 
+
+  Hello, My name is Nui Rattapon.
+  Thank for visit.
+
+  This website is built from scratch , using Angular version 4, Bootstrap version 4 
+  Host and authenticate on Firebase + ASP.NET Core API as a backend.
+
+  Get to know me more at Cover and Resume page. 
+
+  Thank you
+  Nui.
+
+ -->
+
 <head>
   <meta charset="utf-8">
-  <title>NuiSiteV2</title>
+  <title>Nui Rattapon Personal web</title>
   <base href="/">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="I am a fornt-end web developer focusing on Angular, I also able to develop back-end using ASP.NET C# and SQL Server. Based in Christchurch, New Zealand.">
+  <meta name="keywords" content="nui, nui rattapon, rattapon, rattapon wannaphat, nui rattapon wannaphat, nui blog, portfolio, resume, cv, personal website, web, app, development, christchurch, new zealand">
+  <meta name="author" content="Nui Rattapon Wannaphat">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+  <style>
+    /************************************
+    Loading animation
+    ************************************/
+
+    .spinner {
+      margin: 100px auto;
+      width: 50px;
+      height: 40px;
+      text-align: center;
+      font-size: 10px;
+      position: relative;
+      top: 30vh;
+    }
+
+    .spinner>div {
+      background-color: #333;
+      height: 100%;
+      width: 5px;
+      margin-left: 2px;
+      display: inline-block;
+
+      -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+      animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    }
+
+    .spinner .rect2 {
+      -webkit-animation-delay: -1.1s;
+      animation-delay: -1.1s;
+    }
+
+    .spinner .rect3 {
+      -webkit-animation-delay: -1.0s;
+      animation-delay: -1.0s;
+    }
+
+    .spinner .rect4 {
+      -webkit-animation-delay: -0.9s;
+      animation-delay: -0.9s;
+    }
+
+    .spinner .rect5 {
+      -webkit-animation-delay: -0.8s;
+      animation-delay: -0.8s;
+    }
+
+    @-webkit-keyframes sk-stretchdelay {
+      0%,
+      40%,
+      100% {
+        -webkit-transform: scaleY(0.4)
+      }
+      20% {
+        -webkit-transform: scaleY(1.0)
+      }
+    }
+
+    @keyframes sk-stretchdelay {
+      0%,
+      40%,
+      100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+      }
+      20% {
+        transform: scaleY(1.0);
+        -webkit-transform: scaleY(1.0);
+      }
+    }
+
+  </style>
 </head>
+
 <body>
-  <app-root></app-root>
-</body>
+
+  <app-root>
+    <div class="spinner">
+      <div class="rect1"></div>
+      <div class="rect2"></div>
+      <div class="rect3"></div>
+      <div class="rect4"></div>
+      <div class="rect5"></div>
+    </div>
+
+  </app-root>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110995324-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-110995324-1');
+
+  </script>
+
+
 </html>

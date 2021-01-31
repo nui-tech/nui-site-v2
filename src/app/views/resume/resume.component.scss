@@ -1,0 +1,327 @@
+
+.cv-container {
+  height: 100%;
+  
+}
+
+ul{
+  margin-bottom: 0;
+}
+
+/* Nav bar ==========================*/
+.nav{
+  margin-top: 15px;
+  margin-right: 30px;   
+}
+.nav a{  
+  font-weight: 400;
+  color: #66a5ad;
+}
+.nav a:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.active{
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  color: black;
+}
+
+
+
+/*CV header =========================*/
+.wrapper {
+  padding: 5%;
+  padding-top: 20px;
+  padding-bottom: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+}
+
+.myname {
+  font-weight: 300;
+  font-size: 220%;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+}
+
+
+
+/* Aside ==============================*/
+
+aside {
+  background-color: #66a5ad;
+  float: right;
+  width: 270px;
+  max-width: 400px;
+  color: white;
+  box-shadow: 2px 2px 10px 1px #c1c1c1;
+}
+
+aside header {
+  height: 12px;
+  background-color: #07575b;
+}
+
+aside section {
+  padding: 4%;
+  padding-top: 2.5%;
+}
+
+aside a {
+  text-decoration: none;
+  color: white;
+}
+
+aside > section > p > a > i{
+    font-size: 80%;
+    font-weight: thin;
+}
+aside #weblink{
+  display: none;
+}
+
+/* Article ==============================*/
+
+article {
+  margin-top: 2%;
+}
+
+.cv {
+  font-weight: bolder;
+}
+
+article a {
+  text-decoration: none;
+  color: #07575b;
+}
+
+article a:hover {
+  color: #66a5ad;
+}
+/* Self intro list =====================*/
+.self-intro{
+  float: left;
+  width: 60%;
+  margin-top: 2%;
+  text-indent: 50px;
+}
+
+/* Experience list =====================*/
+
+.experience-list {
+  float: left;
+  width: 60%;
+  margin-top: 3%;
+  
+}
+
+.experience-list h5 {
+  font-style: italic;
+  font-size: 80%;
+  margin-top: -6px;
+}
+
+section .exp-item {
+  margin-top: 15px;
+  margin-left: 4%;
+}
+
+section .exp-item h3 {
+  color: #07575b;
+}
+
+section .i1{
+  border-bottom: 1px solid gray;
+  padding-bottom: 15px;
+}
+
+.date {
+  float: right;
+  font-size: 80%;
+  margin-top: -7px;
+}
+
+
+/* Skills ======================= */
+
+.skills {
+  float: left;
+  width: 60%;
+  margin-top: 3%;
+  /* display: block;
+  width: 100%; */
+}
+
+.skill-set {
+  font-size: small;
+  margin-left: 4%;
+  margin-bottom: 16px;
+  overflow: auto;
+}
+
+.skill-set ul {
+  float: left;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-set ul li:before {
+  content: "-";
+  color: grey;
+  margin: 0 16px;
+}
+
+.horizontal-list {
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+padding: 0;
+margin: 0;
+margin-left: 4%;
+font-size: small;
+font-style: italic; }
+.horizontal-list li:last-child:after, .horizontal-list li:nth-child(1):after {
+  content: '';
+  margin: 0; }
+.horizontal-list li:nth-child(1):after {
+  margin-left: 4px; }
+.horizontal-list li:after {
+  content: "-";
+  color: grey;
+  margin: 0 2px; 
+  }
+
+
+/* Education ======================= */
+.education{
+  float: left;
+  width: 60%;
+  margin-top: 15px;
+  display: block;
+  /* width: 100%; */
+}
+
+.kku{
+  margin-left: 4%;
+}
+/* Certification =================== */
+.certification{
+  float: left;
+  margin-top: 10px;
+  width: 60vw;
+}
+.certification > main{
+  margin-left: 4%; 
+}
+.mta > header > a > img{
+  width: 100px;
+  margin-right: 10px;
+}
+.mta > div{
+ padding-top: 22px;
+}
+
+/* Reference ======================= */
+.ref{
+  float: left;
+  margin-top: 10px;
+  width: 60vw;
+}
+
+.ref main{
+  margin-left: 4%;
+}
+
+
+
+
+
+/* Screen break point */
+@media (max-width: 567px) {
+  .nav{
+  margin-right: 5px;   
+}
+}
+
+
+@media (max-width: 767px) {
+  .wrapper {
+      padding: 7%;
+      padding-top: 4%;
+  }
+  aside {
+      float: none;
+      width: 100%;
+      max-width: 100%;
+      margin-top: 6%;
+  }
+  .experience-list {
+      width: 100%;
+  }
+  section .exp-item {
+      margin-top: 4%;
+  }
+  section.skills{
+      width: 100%;
+  }
+  section.education{
+      width: 100%;
+  }
+  section.certification{
+      width: 100%;
+  }   
+
+  article {
+      margin-top: 6%;
+  }
+
+
+
+  h3{
+      font-size: 150%;
+  }
+
+
+}
+@media print {
+aside {
+  color: black;
+  margin-bottom: -50px;
+  margin-top: -20px;
+  text-align: right;
+}
+aside p{
+    margin: 0;
+}
+aside a{
+    color: black;
+}
+aside > section > p >  a > i{
+    display: none;
+}
+article{
+    margin-top: -190px;
+    font-size: 14px;
+}
+aside #weblink{
+  display: block;
+}
+
+.name {
+  margin-top: -100px;
+}
+.skills{
+  width: 100%;
+}
+.skill-set{
+  width: 100%;
+}
+.skill-list{
+  margin-right: 30px;
+      width: 33%;
+}
+}
