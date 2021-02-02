@@ -9,6 +9,7 @@ import { PagenotfoundComponent } from './shared/pagenotfound/pagenotfound.compon
 import { ResumeComponent } from './views/resume/resume.component';
 import { NavComponent } from './components/nav/nav.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LandingComponent } from './views/landing/landing.component';
 
 
 
@@ -19,7 +20,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PagenotfoundComponent,
     ResumeComponent,
     CvCoverComponent,
-    NavComponent
+    NavComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,

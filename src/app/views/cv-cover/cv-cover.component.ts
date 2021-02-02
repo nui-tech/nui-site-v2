@@ -20,9 +20,14 @@ export class CvCoverComponent implements OnInit {
 
 
 
-  constructor(private titleService: Title) {
+  constructor(
+    private titleService: Title
+    ) {
     this.titleService.setTitle('Cover - Nui Rattapon');
   }
+
+
+
 
 
 
@@ -52,6 +57,8 @@ export class CvCoverComponent implements OnInit {
     });
 
   }
+
+
 
   // initScrollMagic() {
   //   // TweenLite.to('.intro-content h1', 1.3, { opacity: 1, y: 50 });
