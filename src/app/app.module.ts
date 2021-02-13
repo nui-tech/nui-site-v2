@@ -1,3 +1,4 @@
+import { IconStarComponent } from './components/star.component';
 import { CvCoverComponent } from './views/cv-cover/cv-cover.component';
 import { AlertModule } from 'ngx-bootstrap/alert';
 import { BrowserModule, Title } from '@angular/platform-browser';
@@ -10,6 +11,7 @@ import { ResumeComponent } from './views/resume/resume.component';
 import { NavComponent } from './components/nav/nav.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LandingComponent } from './views/landing/landing.component';
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 
 
@@ -21,14 +23,17 @@ import { LandingComponent } from './views/landing/landing.component';
     ResumeComponent,
     CvCoverComponent,
     NavComponent,
-    LandingComponent
+    LandingComponent,
+    IconStarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
 
-    AlertModule.forRoot()
+    AlertModule.forRoot(),
+
+    ScullyLibModule
   ],
   providers: [ Title ],
   bootstrap: [AppComponent]

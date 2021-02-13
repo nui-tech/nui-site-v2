@@ -9,7 +9,7 @@ import { Title } from '@angular/platform-browser';
 export class ResumeComponent implements OnInit {
 
   constructor(private titleService: Title) {
-    this.titleService.setTitle('Resume - Nui Rattapon');
+    this.titleService.setTitle('Resume - Nui Rattapon | Web developer | Christchurch | New Zealand');
   }
   ngOnInit(): void {
   }

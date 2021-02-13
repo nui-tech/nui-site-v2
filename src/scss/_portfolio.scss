@@ -27,10 +27,10 @@
 // Styling for the portfolio modals
 .portfolio-modal {
     .portfolio-modal-title {
-        font-size: 2.25rem;
+        font-size: 2.0rem;
         line-height: 2rem;
         @include media-breakpoint-up(lg) {
-            font-size: 3rem;
+            font-size: 2rem;
             line-height: 2.5rem;
         }
     }
