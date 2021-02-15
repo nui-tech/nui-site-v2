@@ -255,16 +255,7 @@ font-style: italic; }
   }
 }
 
-@media (max-width: 958) {
 
-}
-@media (max-width: 1230px) {
-  aside {
-    float: none;
-    width: 100%;
-    max-width: 61%;
-    margin-top: 6%;
-  }
 
 @media (max-width: 767px) {
   aside {
@@ -306,12 +297,22 @@ font-style: italic; }
 
 }
 
+@media (max-width: 1230px) {
+  aside {
+    float: none;
+    width: 100%;
+    max-width: 61%;
+    margin-top: 6%;
+  }
 }
+
 @media print {
 aside {
+  float: right;
   color: black;
   margin-bottom: -50px;
   margin-top: -20px;
+  width: 280px;
   text-align: right;
   background: none;
 }
@@ -333,7 +334,10 @@ aside #weblink{
 }
 
 .name {
-  margin-top: -100px;
+  h2{
+    float: left;
+  }
+  // margin-top: -100px;
 }
 .skills{
   width: 100%;
