@@ -4,7 +4,7 @@
 // $secondary: #4a5050;
 .cv-container {
   height: 100%;
-  
+  margin-bottom: 10rem;
 }
 
 ul{
@@ -252,21 +252,29 @@ font-style: italic; }
 @media (max-width: 567px) {
   .nav{
   margin-right: 5px;   
-}
+  }
 }
 
+@media (max-width: 958) {
+
+}
+@media (max-width: 1230px) {
+  aside {
+    float: none;
+    width: 100%;
+    max-width: 61%;
+    margin-top: 6%;
+  }
 
 @media (max-width: 767px) {
+  aside {
+    max-width: 100%;
+  }
   .wrapper {
       padding: 7%;
       padding-top: 4%;
   }
-  aside {
-      float: none;
-      width: 100%;
-      max-width: 100%;
-      margin-top: 6%;
-  }
+  
   .experience-list {
       width: 100%;
   }
@@ -287,13 +295,16 @@ font-style: italic; }
       margin-top: 6%;
   }
 
-
-
-
   h3{
       font-size: 150%;
   }
 
+  .self-intro{
+    width: 100%;
+  }
+
+
+}
 
 }
 @media print {
@@ -302,6 +313,7 @@ aside {
   margin-bottom: -50px;
   margin-top: -20px;
   text-align: right;
+  background: none;
 }
 aside p{
     margin: 0;

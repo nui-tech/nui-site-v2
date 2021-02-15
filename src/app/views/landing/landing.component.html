@@ -1,6 +1,12 @@
 <!-- Navigation-->
 <app-nav></app-nav>
 
+
+
+
+
+
+
 <!-- Masthead-->
 <header class="masthead bg-primary text-white text-center">
   <div class="container d-flex align-items-center flex-column">
@@ -11,7 +17,9 @@
     <!-- Icon Divider-->
     <div class="divider-custom divider-light">
       <div class="divider-custom-line"></div>
-      <div class="divider-custom-icon"><icon-star></icon-star></div>
+      <div class="divider-custom-icon">
+        <fa-icon [icon]="faKeyboard"></fa-icon>
+      </div>
       <div class="divider-custom-line"></div>
     </div>
     <!-- Masthead Subheading-->
@@ -21,13 +29,24 @@
     </p>
   </div>
 </header>
+
+
+
+
+
 <!-- Portfolio Section-->
 <section class="page-section portfolio" id="portfolio">
   <div class="container">
     <!-- Portfolio Section Heading-->
     <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">My work</h2>
     <!-- Icon Divider-->
-    <icon-star color="#000"></icon-star>
+    <div class="divider-custom divider-dark">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon">
+        <fa-icon [icon]="faKeyboard"></fa-icon>
+      </div>
+      <div class="divider-custom-line"></div>
+    </div>
     <!-- Portfolio Grid Items-->
     <div class="row justify-content-center">
       <!-- Portfolio Item 3-->
@@ -101,6 +120,12 @@
     </div>
   </div>
 </section>
+
+
+
+
+
+
 <!-- About Section-->
 <section class="page-section bg-primary text-white mb-0" id="about">
   <div class="container">
@@ -110,7 +135,7 @@
     <div class="divider-custom divider-light">
       <div class="divider-custom-line"></div>
       <div class="divider-custom-icon">
-        <icon-star color="#fff"></icon-star>
+        <fa-icon [icon]="faKeyboard"></fa-icon>
       </div>
       <div class="divider-custom-line"></div>
     </div>
@@ -118,16 +143,14 @@
     <div class="row">
       <div class="col-lg-4 ml-auto">
         <p class="lead">
-          I'm an IT passionate, self-learner and a team player.
-If you are looking for a geek, have fun with coding, Yes! It's Me.
-
-
+          Hi, I'm Nui. I'm a dynamic developer with over 3 years of experience in web and mobile app development. I work with a wide range of tech, but my main focus is Javascript framework such as Angular and React.
         </p>
       </div>
       <div class="col-lg-4 mr-auto">
         <p class="lead">
-          I'm looking for a challenging position with a forward thinking
-company where my skills can be assets.
+          I was curious about technology from the young age of 13 that I custom-built and broke my first PC. And that curiosity in technology is still with me till  this day. 
+          <br>
+          I'm looking for a challenging position with a passionate team in a forward-thinking company, where my skills can be an asset.
         </p>
       </div>
     </div>
@@ -135,22 +158,33 @@ company where my skills can be assets.
     <div class="text-center mt-4">
       <a class="btn btn-xl btn-outline-light" routerLink="/resume" >
         <i class="fas fa-download mr-2"></i>
-        See my resume
+        More about me
       </a>
     </div>
   </div>
 </section>
+
+
+
+
+
+
 <!-- Contact Section-->
-<section class="page-section" id="contact">
+<!-- <section class="page-section" id="contact">
   <div class="container">
-    <!-- Contact Section Heading-->
+
     <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-    <!-- Icon Divider-->
-    <icon-star color="#000"></icon-star>
-    <!-- Contact Section Form-->
+
+    <div class="divider-custom divider-dark">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon">
+        <fa-icon [icon]="faKeyboard"></fa-icon>
+      </div>
+      <div class="divider-custom-line"></div>
+    </div>
+  
     <div class="row">
       <div class="col-lg-8 mx-auto">
-        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
         <form id="contactForm" name="sentMessage" novalidate="novalidate">
           <div class="control-group">
             <div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -192,44 +226,25 @@ company where my skills can be assets.
       </div>
     </div>
   </div>
-</section>
-<!-- Footer-->
-<footer class="footer text-center">
-  <div class="container">
-    <div class="row">
-      <!-- Footer Location-->
-      <div class="col-lg-4 mb-5 mb-lg-0">
-        <h4 class="text-uppercase mb-4">Location</h4>
-        <p class="lead mb-0">
-          2215 John Daniel Drive
-          <br />
-          Clark, MO 65243
-        </p>
-      </div>
-      <!-- Footer Social Icons-->
-      <div class="col-lg-4 mb-5 mb-lg-0">
-        <h4 class="text-uppercase mb-4">Around the Web</h4>
-        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-      </div>
-      <!-- Footer About Text-->
-      <div class="col-lg-4">
-        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-        <p class="lead mb-0">
-          Freelance is a free to use, MIT licensed Bootstrap theme created by
-          <a href="http://startbootstrap.com">Start Bootstrap</a>
-          .
-        </p>
-      </div>
-    </div>
-  </div>
-</footer>
-<!-- Copyright Section-->
-<div class="copyright py-4 text-center text-white">
-  <div class="container"><small>Built with Jamstack | Angular + Scully + Netlify</small></div>
-</div>
+</section> -->
+
+
+
+
+
+
+
+
+
+<app-footer></app-footer>
+
+
+
+
+
+
+
+
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
 <div class="scroll-to-top d-lg-none position-fixed">
   <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
@@ -252,7 +267,13 @@ company where my skills can be assets.
               <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Angular Universal 
               </h2>
               <!-- Icon Divider-->
-              <icon-star color="#000"></icon-star>
+              <div class="divider-custom divider-dark">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                  <fa-icon [icon]="faKeyboard"></fa-icon>
+                </div>
+                <div class="divider-custom-line"></div>
+              </div>
               <!-- Portfolio Modal - Image-->
               <img class="img-fluid rounded mb-5" src="assets/landing/img/portfolio/show-mk-thumb.png" alt="" />
               <!-- Portfolio Modal - Text-->
@@ -298,7 +319,13 @@ company where my skills can be assets.
               <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">React JS
               </h2>
               <!-- Icon Divider-->
-              <icon-star color="#000"></icon-star>
+              <div class="divider-custom divider-dark">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                  <fa-icon [icon]="faKeyboard"></fa-icon>
+                </div>
+                <div class="divider-custom-line"></div>
+              </div>
               <!-- Portfolio Modal - Image-->
               <img class="img-fluid rounded mb-5" src="assets/landing/img/portfolio/show-nzc-thumb.png" alt="" />
               <!-- Portfolio Modal - Text-->
@@ -343,7 +370,13 @@ company where my skills can be assets.
               <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Angular
               </h2>
               <!-- Icon Divider-->
-              <icon-star color="#000"></icon-star>
+              <div class="divider-custom divider-dark">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                  <fa-icon [icon]="faKeyboard"></fa-icon>
+                </div>
+                <div class="divider-custom-line"></div>
+              </div>
               <!-- Portfolio Modal - Image-->
               <img class="img-fluid rounded mb-5" src="assets/landing/img/portfolio/show-search-thumb.png" alt="" />
               <!-- Portfolio Modal - Text-->
@@ -388,7 +421,13 @@ company where my skills can be assets.
               <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">Gulp.js + SCSS
               </h2>
               <!-- Icon Divider-->
-              <icon-star color="#000"></icon-star>
+              <div class="divider-custom divider-dark">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                  <fa-icon [icon]="faKeyboard"></fa-icon>
+                </div>
+                <div class="divider-custom-line"></div>
+              </div>
               <img class="img-fluid rounded mb-5" src="assets/landing/img/portfolio/show-craft-thumb.png" alt="" />
               <!-- Portfolio Modal - Text-->
               <div class="text-left">
@@ -431,7 +470,13 @@ company where my skills can be assets.
               <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal5Label">Silverstripe
               </h2>
               <!-- Icon Divider-->
-              <icon-star color="#000"></icon-star>
+              <div class="divider-custom divider-dark">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                  <fa-icon [icon]="faKeyboard"></fa-icon>
+                </div>
+                <div class="divider-custom-line"></div>
+              </div>
               <!-- Portfolio Modal - Image-->
               <img class="img-fluid rounded mb-5" src="assets/landing/img/portfolio/show-zend-thumb.png" alt="" />
               <!-- Portfolio Modal - Text-->
@@ -474,7 +519,13 @@ company where my skills can be assets.
               <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">jQuery JS
               </h2>
               <!-- Icon Divider-->
-              <icon-star color="#000"></icon-star>
+              <div class="divider-custom divider-dark">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                  <fa-icon [icon]="faKeyboard"></fa-icon>
+                </div>
+                <div class="divider-custom-line"></div>
+              </div>
               <!-- Portfolio Modal - Image-->
               <img class="img-fluid rounded mb-5" src="assets/landing/img/portfolio/show-phl-thumb.png" alt="" />
               <!-- Portfolio Modal - Text-->
