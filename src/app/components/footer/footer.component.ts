@@ -9,12 +9,12 @@ import { SpotifyServiceService } from 'src/app/services/spotify-service.service'
   <footer class="footer text-center">
     <div class="container">
       <div class="row">
-      <div class="col-lg-4 mb-5 mb-lg-0">
+      <!-- <div class="col-lg-4 mb-5 mb-lg-0">
         <h4 class="text-uppercase mb-4">Some old stuffs</h4>
         <a href="/cover" >Scrolling animation</a>
-      </div>
+      </div> -->
         <!-- Footer Social Icons-->
-        <div class="col-lg-4 mb-5 mb-lg-0">
+        <div class="col-lg-6 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Find me online</h4>
           <a class="btn btn-outline-light btn-social mx-1" target="blank" href="//github.com/nui-tech">
             <fa-icon [icon]="faGithub"></fa-icon>
@@ -24,7 +24,7 @@ import { SpotifyServiceService } from 'src/app/services/spotify-service.service'
           </a>
         </div>
         <!-- Footer About Text-->
-        <div class="col-lg-4 mb-5 mb-lg-0" >
+        <div class="col-lg-6 mb-5 mb-lg-0" >
           <h4 class="text-uppercase mb-4">Now coding tune</h4>
           <div class="d-inline">
             <fa-icon style="color:#1ed760;" [icon]="faSpotify"></fa-icon> 
