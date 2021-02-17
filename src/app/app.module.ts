@@ -1,5 +1,3 @@
-
-import { CvCoverComponent } from './views/cv-cover/cv-cover.component';
 import { AlertModule } from 'ngx-bootstrap/alert';
 import { BrowserModule, Title } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -25,7 +23,6 @@ import { FooterComponent } from './components/footer/footer.component';
     AppComponent,
     PagenotfoundComponent,
     ResumeComponent,
-    CvCoverComponent,
     NavComponent,
     LandingComponent,
     FontawesomeShowComponent,

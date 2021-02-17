@@ -1,18 +1,15 @@
 import { LandingComponent } from './views/landing/landing.component';
-import { CvCoverComponent } from './views/cv-cover/cv-cover.component';
 import { ResumeComponent } from './views/resume/resume.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
-
 import { PagenotfoundComponent } from './shared/pagenotfound/pagenotfound.component';
-import { FontawesomeShowComponent } from './example/fontawesome-show.component';
 
 const routes: Routes = [
   { path: '', component: LandingComponent },
   // { path: 'fa', component: FontawesomeShowComponent },
   { path: 'portfolio', component: LandingComponent },
   { path: 'resume', component: ResumeComponent },
-  { path: 'cover', component: CvCoverComponent },
+  // { path: 'cover', component: CvCoverComponent },
   { path: '**', component: PagenotfoundComponent }
 ];
 
